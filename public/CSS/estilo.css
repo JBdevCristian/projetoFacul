@@ -15,6 +15,7 @@ body {
 /*Navbar*/
 
 nav {
+    top: 0;
     height: 50px; /* Altura da barra de navegação */
     display: flex; /* Alinha elementos na barra de navegação */
     align-items: center; /* Centraliza verticalmente */
@@ -78,6 +79,7 @@ nav button:hover {
     min-height: 70vh; /* Altura mínima do cabeçalho */
     align-items: center; /* Alinha verticalmente os itens ao centro */
     padding: 20px; /* Adiciona um preenchimento interno para evitar que o texto fique colado nas bordas */
+    margin-bottom: -30px;
 }
 
 .texto h1, p {
